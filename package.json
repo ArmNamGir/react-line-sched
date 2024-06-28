@@ -1,7 +1,7 @@
 {
-  "name": "namma-timeline",
-  "version": "1.1.7",
-  "description": "react calendar timeline Namma",
+  "name": "react-line-sched",
+  "version": "1.0.0",
+  "description": "react line scheduler",
   "main": "lib/index.js",
   "scripts": {
     "build": "npm run build:lib",
@@ -18,10 +18,10 @@
     "lib",
     "src"
   ],
-  "homepage": "https://github.com/ArmNamGir/namma-timeline",
+  "homepage": "https://github.com/ArmNamGir/react-line-sched",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArmNamGir/namma-timeline.git"
+    "url": "https://github.com/ArmNamGir/react-line-sched.git"
   },
   "author": "Namma",
   "contributors": [],
@@ -29,8 +29,7 @@
   "keywords": [
     "react",
     "reactjs",
-    "react-component",
-    "timeline"
+    "react-component"
   ],
   "standard": {
     "parser": "babel-eslint"
