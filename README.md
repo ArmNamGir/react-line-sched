@@ -2,10 +2,10 @@
 
 ```bash
 # via yarn
-yarn add namma-timeline
+yarn add react-line-sched
 
 # via npm
-npm install --save namma-timeline
+npm install --save react-line-sched
 ```
 
 # Usage
@@ -13,9 +13,9 @@ npm install --save namma-timeline
 At the very minimum:
 
 ```jsx
-import Timeline from 'namma-timeline'
+import Timeline from 'react-line-sched'
 // make sure you include the timeline stylesheet or the timeline will not be styled
-import 'react-calendar-timeline/lib/Timeline.css'
+import 'react-line-sched/lib/Timeline.css'
 import moment from 'moment'
 
 const groups = [{ id: 1, title: 'group 1' }, { id: 2, title: 'group 2' }]
