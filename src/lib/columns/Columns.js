@@ -79,8 +79,7 @@ class Columns extends Component {
         const left = getLeftOffsetFromDate(time.valueOf())
         const right = getLeftOffsetFromDate(nextTime.valueOf())
 
-        const widtVertical = (right - left) < 80 ? 80 : (right - left);
-        
+        // const widtVertical = (right - left) < 80 ? 80 : (right - left);
         lines.push(
           <div
             key={`line-${time.valueOf()}`}
@@ -89,7 +88,7 @@ class Columns extends Component {
               pointerEvents: 'none',
               top: '0px',
               left: `${left}px`,
-              width: `${widtVertical}px`,
+              width: `${right - left}px`,
               height: `100%`
             }}
           />
