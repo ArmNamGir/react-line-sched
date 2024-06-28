@@ -145,6 +145,14 @@ $weekend: rgba(250, 246, 225, 0.5);
     border-left:  2px solid #bbb;
   }
 
+  .rct-dateHeader-line {
+    white-space: nowrap;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
   .rct-dateHeader-primary {
     background-color: initial;
     border-left:  1px solid #bbb;

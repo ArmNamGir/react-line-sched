@@ -1,6 +1,6 @@
 {
   "name": "react-line-sched",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react line scheduler",
   "main": "lib/index.js",
   "scripts": {
